@@ -1,3 +1,4 @@
+
 # Student Task Manager
 
 ## About
@@ -22,3 +23,6 @@ Open index.html in a web browser.
 - Save tasks permanently
 - Add due dates
 - Add student login
+=======
+# student-task-manager
+A simple college task management web app
