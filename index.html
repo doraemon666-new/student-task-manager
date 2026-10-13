@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <p class="tag">COLLEGE MINI PROJECT</p>
+      <h1>Student Task Manager</h1>
+      <p>Plan your work. Complete your goals.</p>
+    </header>
+
+    <section class="stats">
+      <div class="card">
+        <span>Total Tasks</span>
+        <h2 id="total">0</h2>
+      </div>
+      <div class="card">
+        <span>Pending</span>
+        <h2 id="pending">0</h2>
+      </div>
+      <div class="card">
+        <span>Completed</span>
+        <h2 id="completed">0</h2>
+      </div>
+    </section>
+
+    <section class="task-box">
+      <h2>Add a Task</h2>
+      <form id="taskForm">
+        <input id="taskInput" type="text"
+          placeholder="Enter your task..." required>
+        <button type="submit">Add Task +</button>
+      </form>
+      <ul id="taskList"></ul>
+    </section>
+
+    <footer>Built by a student | Student Task Manager</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
